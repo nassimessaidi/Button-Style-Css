@@ -1,20 +1,26 @@
-.skills {
-    width: 75%;
-    margin: 0 auto;
-    font-family: raleway;
-}
-.cv{
+/* Import the Raleway font */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap");
+
+.main{
     text-align: center;
     margin-top: 60px;
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
 }
+
+/* Editing the size of the icon and other properties */
 .fa-hand-point-down{
     font-size: medium;
     color: #0a1d56;
 }
+
+/* For flip the icon horizontaly */
 .right{
     transform: scaleX(-1);
 }
-.skills h1 {
+
+.main h1 {
   text-align: center;
   font-family: raleway;
   font-weight: 700;
@@ -22,7 +28,7 @@
   color: #222;
   margin-bottom: 40px;
 }
-.skills p{
+.main p{
     text-transform: capitalize;
 }
 
@@ -45,81 +51,3 @@ button:hover{
     transform: scale(1.1);
     transition: all 0.3s ease;
 }
-.skill {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0px;
-  align-items: center;
-  color: #333;
-}
-.skill h2 {
-  font-family: raleway;
-  font-weight: 600;
-  font-size: 20px;
-  width: 30%;
-}
-.meter {
-  font-family: lato;
-  font-weight: 900;
-  width: 90%;
-  height: 30px;
-  display: flex;
-  padding: 3px;
-  color: #fff;
-  border: solid 2px #333;
-}
-.percentage {
-  background-color: #0a1d56;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- /* Mobile responsive */
-@media screen and (max-width: 768px) {
-  #myinfo {
-    width: 100%;
-    display: flex;
-    font-family: raleway;
-    flex-direction: column;
-    align-items: center;
-	}
-  .desc p {
-    width: 100%;
-	}
-  .desc {
-    margin: 40px 0px;
-    width: fit-content;
-	}
-  .skills {
-    width: 100%;
-	}
-  .skill h2 {
-    font-family: raleway;
-    font-size: 15px;
-    width: 30%;
-	}
-   .skill {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0px;
-    align-items: center;
-    color: #333;
-  }
-  .meter {
-    font-family: lato;
-    font-weight: 900;
-    width: 90%;
-    height: 20px;
-    display: flex;
-    padding: 3px;
-    color: #fff;
-    border: solid 2px #333;
-  }
-  .percentage {
-    background-color: #0a1d56;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  }
