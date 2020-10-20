@@ -4,7 +4,7 @@ This is a native CSS without any library or framework, I used Font Awesome to ge
 
 To choose any icon you want go the [Font Awesome](https://fontawesome.com/icons?d=gallery)
 
-Before that, you need to put the script given by [Font Awesome](https://fontawesome.com/start) between <head> </head>, or you can use the one integrated in this code:
+**PS:** Before that, you need to put the script given by [Font Awesome](https://fontawesome.com/start) between <head> </head>, or you can use the one integrated in this code:
 
 ```html
 <script src="https://kit.fontawesome.com/ee154ba588.js" crossorigin="anonymous"></script>
